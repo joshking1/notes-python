@@ -5,9 +5,13 @@ Let us break down the code step by step:
 
 try:
     num = float(num)
+    
     numbers.append(num)
+    
 except ValueError:
+
     print("Invalid input. Please enter a number or 'q' to quit.")
+    
 
 In this code, we have a try block that attempts to convert the variable num into a floating-point number using the float() function. 
 
